@@ -11,7 +11,7 @@ nextApp.prepare().then(() => {
   const app = express()
 
   app.get('/test', (req, res) =>
-    res.status(200).json({ hello: 'Hello, updated second test!' })
+    res.status(200).json({ hello: 'Hello, test!' })
   )
 
   app.get('*', (req, res) => {
